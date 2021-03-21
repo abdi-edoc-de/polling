@@ -1,0 +1,403 @@
+    @font-face {
+        font-family: proximanova;
+        src: url("/asset/font/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
+    }
+    
+    @font-face {
+        font-family: proximanovaBold;
+        src: url("/asset/font/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
+    }
+    
+    body {
+        font-family: proximanova;
+        height: 100vh;
+        width: 100wh;
+    }
+    
+    #BRAND {
+        text-align: left;
+        font-family: proximanovaBold;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        color: rgba(10, 190, 173, 1);
+    }
+    
+    .login {
+        filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+        opacity: 0.988;
+        width: 8em;
+        height: 50px;
+        fill: rgba(9, 190, 173, 1);
+        background-color: rgba(9, 190, 173, 1);
+    }
+    
+    .inp {
+        border: none;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(245, 127, 23, 0.1);
+        filter: drop-shadow(0px 0px 59px rgba(96, 233, 255, 0.271));
+    }
+    
+    .form-control .inp[type=search]:focus {
+        border: none;
+        background-color: #07756A
+    }
+    
+    @media screen and (min-width:320px) {
+        #Dare {
+            opacity: 0.71;
+            line-height: 30%;
+            text-align: left;
+            font-size: 1rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            line-height: 30%;
+            text-align: left;
+            font-size: 1.4rem;
+            color: rgba(12, 191, 174, 1);
+            padding-top: 15%;
+        }
+        #Join {
+            line-height: 30%;
+            text-align: left;
+            font-size: 1.9rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            font-size: 0.4em;
+            opacity: 0.988;
+            width: 5rem;
+            fill: rgba(9, 190, 173, 1);
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 18%;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 10%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .mainImg {
+            width: 80%;
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width:375px) {
+        #Dare {
+            opacity: 0.71;
+            line-height: 30%;
+            font-size: 1.2rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            line-height: 30%;
+            text-align: left;
+            font-size: 1.6rem;
+            color: rgba(12, 191, 174, 1);
+            padding-top: 15%;
+        }
+        #Join {
+            line-height: 30%;
+            text-align: left;
+            font-size: 2.2rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            font-size: 0.5em;
+            filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+            opacity: 0.988;
+            width: 7rem;
+            height: 3rem;
+            fill: rgba(9, 190, 173, 1);
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 15%;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 10%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .mainImg {
+            width: 80%;
+            display: none;
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        #Dare {
+            opacity: 0.71;
+            font-size: 1.2rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            line-height: 30%;
+            text-align: left;
+            font-size: 1.6rem;
+            color: rgba(12, 191, 174, 1);
+            padding-top: 15%;
+        }
+        #Join {
+            line-height: 30%;
+            text-align: left;
+            font-size: 2.2rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            font-size: 0.6em;
+            opacity: 0.988;
+            width: 7rem;
+            height: 3rem;
+            fill: rgba(9, 190, 173, 1);
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 8%;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+            margin-top: 10%;
+        }
+        .mainImg {
+            width: 100%;
+            display: block;
+        }
+    }
+    /*     
+    @media screen and (min-width:1024px) {
+        #Dare {
+            opacity: 0.71;
+            line-height: 30%;
+            font-size: 1.2rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            line-height: 30%;
+            text-align: left;
+            font-size: 1.6rem;
+            color: rgba(12, 191, 174, 1);
+            padding-top: 15%;
+        }
+        #Join {
+            line-height: 30%;
+            text-align: left;
+            font-size: 2.2rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            font-size: 0.8em;
+            filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+            opacity: 0.988;
+            width: 7rem;
+            height: 3rem;
+            fill: rgba(9, 190, 173, 1);
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 7%;
+            margin-top: 5%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 10%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .mainImg {
+            width: 80%;
+        }
+    } */
+    
+    @media screen and (min-width:1024px) {
+        #Dare {
+            opacity: 0.71;
+            font-size: 1rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        #Join {
+            text-align: left;
+            font-size: 2rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+            opacity: 0.988;
+            width: 9rem;
+            height: 3rem;
+            fill: rgba(9, 190, 173, 1);
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 13%;
+            margin-top: 12%;
+            margin-right: 0%;
+            margin-bottom: 12.5%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .mainImg {
+            width: 80%;
+        }
+    }
+    
+    @media screen and (min-width:1440px) {
+        #BRAND {
+            text-align: left;
+            font-family: proximanovaBold;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 4rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        #Dare {
+            opacity: 0.71;
+            font-size: 1rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        #Join {
+            text-align: left;
+            font-size: 3rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+            opacity: 0.988;
+            width: 10rem;
+            height: 3rem;
+            background-color: rgba(9, 190, 173, 1);
+        }
+        #main {
+            padding-left: 13%;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        #top {
+            margin-bottom: 10%;
+            padding-bottom: 0%;
+            margin-top: 0%;
+        }
+        .mainImg {
+            width: 70%;
+        }
+    }
+    
+    @media screen and (min-width:1550px) {
+        #BRAND {
+            text-align: left;
+            font-family: proximanovaBold;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 4rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        #Dare {
+            opacity: 0.71;
+            font-size: 1rem;
+            color: rgba(149, 165, 198, 1);
+        }
+        #well {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        #Join {
+            text-align: left;
+            font-size: 3rem;
+            color: rgba(10, 190, 173, 1);
+        }
+        .signB {
+            font-size: 1em;
+            filter: drop-shadow(0px 16px 29px rgba(11, 190, 173, 0.412));
+            opacity: 0.988;
+            width: 12rem;
+            height: 3.5rem;
+            background-color: rgba(9, 190, 173, 1);
+            border: none;
+        }
+        #main {
+            padding-left: 5%;
+            margin-top: 10%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        #top {
+            margin-bottom: 0%;
+            padding-bottom: 0%;
+        }
+        .mainImg {
+            width: 90%;
+        }
+    }
+    
+    body {
+        font-family: proximanova;
+        height: 100vh;
+        width: 100wh;
+    }
+    
+    #showError {
+        text-align: left;
+        color: #FF0000;
+        opacity: 0;
+    }
+    
+    .spinner-border {
+        display: none;
+    }
+    
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    
+    .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .signB:visited,
+    .signB:link {
+        background-color: rgba(9, 190, 173, 1);
+        border: none;
+    }
+    
+    .signB:active,
+    .signB:hover {
+        background-color: rgba(9, 190, 173, 1);
+        border: none;
+    }
+    
+    .signB {
+        background-color: rgba(9, 190, 173, 1);
+        border: none;
+    }

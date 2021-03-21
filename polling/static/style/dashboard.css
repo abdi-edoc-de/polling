@@ -1,0 +1,17 @@
+  .card{
+    color: black !important;
+  }
+  
+  svg {
+    width: 100px; height: 100px;
+    transform: rotate(-90deg);
+    background: white;
+    border-radius: 50%;
+  }
+  
+  circle {
+    fill: rgb(247, 247, 247);
+    stroke: rgb(12, 191, 174);
+    stroke-width: 32;
+  }
+  
